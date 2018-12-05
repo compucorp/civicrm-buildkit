@@ -22,21 +22,21 @@ libraries[civicrm][destination] = modules
 libraries[civicrm][directory_name] = civicrm
 libraries[civicrm][download][type] = git
 libraries[civicrm][download][url] = %%CACHE_DIR%%/civicrm/civicrm-core.git
-libraries[civicrm][download][tag] = %%CIVI_VERSION%%
+libraries[civicrm][download][branch] = %%CIVI_VERSION%%
 libraries[civicrm][overwrite] = TRUE
 
 libraries[civicrmdrupal][destination] = modules
 libraries[civicrmdrupal][directory_name] = civicrm/drupal
 libraries[civicrmdrupal][download][type] = git
 libraries[civicrmdrupal][download][url] = %%CACHE_DIR%%/civicrm/civicrm-drupal.git
-libraries[civicrmdrupal][download][tag] = 7.x-%%CIVI_VERSION%%
+libraries[civicrmdrupal][download][branch] = 7.x-%%CIVI_VERSION%%
 libraries[civicrmdrupal][overwrite] = TRUE
 
 libraries[civicrmpackages][destination] = modules
 libraries[civicrmpackages][directory_name] = civicrm/packages
 libraries[civicrmpackages][download][type] = git
 libraries[civicrmpackages][download][url] = %%CACHE_DIR%%/civicrm/civicrm-packages.git
-libraries[civicrmpackages][download][tag] = %%CIVI_VERSION%%
+libraries[civicrmpackages][download][branch] = %%CIVI_VERSION%%
 libraries[civicrmpackages][overwrite] = TRUE
 
 libraries[civihr][destination] = modules
@@ -60,7 +60,7 @@ projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-rc1
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 4.12
+projects[webform][version] = 4.19
 
 projects[webform_civicrm][subdir] = contrib
 projects[webform_civicrm][version] = "4.20"
@@ -91,7 +91,7 @@ libraries[civicrmdeveloper][overwrite] = TRUE
 ; ****************************************
 
 projects[ctools][subdir] = civihr-contrib-required
-projects[ctools][version] = "1.9"
+projects[ctools][version] = "1.15"
 
 projects[date][subdir] = civihr-contrib-required
 projects[date][version] = "2.8"
@@ -103,7 +103,7 @@ projects[civicrm_entity][subdir] = civihr-contrib-required
 projects[civicrm_entity][version] = "2.x-dev"
 
 projects[features][subdir] = civihr-contrib-required
-projects[features][version] = "2.10"
+projects[features][version] = "2.11"
 
 projects[features_extra][subdir] = civihr-contrib-required
 projects[features_extra][version] = "1.0"
@@ -115,7 +115,7 @@ projects[panels][subdir] = civihr-contrib-required
 projects[panels][version] = "3.7"
 
 projects[rules][subdir] = civihr-contrib-required
-projects[rules][version] = "2.8"
+projects[rules][version] = "2.11"
 
 projects[tipsy][subdir] = civihr-contrib-required
 projects[tipsy][version] = "1.0-rc1"
