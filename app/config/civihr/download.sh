@@ -7,7 +7,7 @@
 git_cache_setup "https://github.com/compucorp/civihr.git" "$CACHE_DIR/compucorp/civihr.git"
 
 [ -z "$CMS_VERSION" ] && CMS_VERSION=7.x
-[ -z "$CIVI_VERSION" ] && CIVI_VERSION=5.7.0
+[ -z "$CIVI_VERSION" ] && CIVI_VERSION=5.12.0
 [ -z "$HR_VERSION" ] && HR_VERSION=master
 
 MAKEFILE="${TMPDIR}/${SITE_TYPE}/${SITE_NAME}/${SITE_ID}.make"
